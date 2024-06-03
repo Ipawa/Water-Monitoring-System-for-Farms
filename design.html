@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Design Activities - Design Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="literature.html">Literature Survey</a></li>
+                <li><a href="design.html">Design Activities</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="bibliography.html">Bibliography</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="video.html">3-min Video Clip</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Procedures</h1>
+        <p>1.The initial phase involved defining the system's functionalities and user requirements. This included real-time water level monitoring, automated refilling, animal presence detection, salt lick dispensing, and remote mobile app control.</p>
+	<p>2.Based on the defined requirements, appropriate components were chosen. This included a water trough and tank, LED to switch on when the pump is turned off, water level sensor for accurate water level measurement in the water trough, ultrasonic sensor for animal presence detection, reliable water pump for refilling water into the water trough from the tank, servo motor to provide the salt licks when activated by the ultrasonic sensor, Raspberry Pi as the central hub, jumper wires for electrical connections between the components  and a suitable server platform for data processing and communication.</p>
+	<p>3.The testing of components was made to  ensure proper functionality of all components</p>
+	<p>4.The block diagram of how the system’s layout or set up would be was chosen</p>
+	<p>5.The water level sensor was strategically placed within animal troughs, ensuring proper immersion and accurate water level readings, ultrasonic sensor was positioned near the troughs for optimal animal presence detection, the pump was placed inside the tank for pumping water into the trough and the servo motor was as well positioned near the water trough for animals to easily get the salt licks.</p>
+	<p>6.A robust data acquisition system was developed to collect and process sensor data. This system involved electrical connections using jumper wires between sensors(water level, ultrasonic), servo motor, pump  and the Raspberry Pi for data transmission.</p>
+	<p>7.A programming logic was developed to trigger the pump based on water level sensor data. When water level sensor reads low, the system would activate the pump to refill the trough automatically and the pump automatically stops pumping when the water level sensor reads high.</p>
+	<p>8.A programming logic was developed to trigger the servo motor based on the ultrasonic sensor data. When the ultrasonic sensor detects the presence of animals, the system then dispenses the servo motor arm to provide salt licks to animals and when no animal presence is detected by the ultrasonic sensor, then no dispersion of the servo arm.</p>
+	<p>9.A programming logic was developed for the on and off switching of the LED when the pump is turned off and on respectively</p>
+	<p>10.The mobile app was programmed to offer functionalities such as real-time water level visualization for the trough, customizable alert notifications for low water levels, animal presence, and system malfunctions. Additionally, the app allows for remote control of the automated water refilling process by the pump.</p>
+	<p>11.Comprehensive testing of the system was conducted to ensure its functionality. This included automated pumping of water into the trough, animal presence detection, salt lick dispensing, and mobile app functionalities.</p>
+    </main>
+</body>
+</html>

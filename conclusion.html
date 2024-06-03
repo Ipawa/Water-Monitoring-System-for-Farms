@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conclusion - Design Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="literature.html">Literature Survey</a></li>
+                <li><a href="design.html">Design Activities</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="bibliography.html">Bibliography</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="video.html">3-min Video Clip</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Conclusion</h1>
+        <p>This project successfully designed, developed, and tested a Water Monitoring System for Farms with all the Key objectives met. This innovative system leverages the power of Internet of Things (IoT) technology to provide real-time monitoring of water levels in animal troughs and automates the refilling process.  The system offers several key functionalities:</p>
+	<p>•Real-time water level monitoring: Ensures consistent access to fresh water for animals and prevents dehydration.</p>
+	<p>•Automated refilling: Eliminates the need for manual intervention and optimizes water resource utilization.</p>
+	<p>•Improved farm management: Provides farm managers with real-time data and remote control capabilities for informed decision-making</p>
+	<p>Challenges faced:</p>
+	<p>•Internet Dependency for Remote Monitoring and Control: The system remote monitoring and control is dependent on the Internet.  While the system might function for basic monitoring locally, full functionality like remote access to data or control features would rely on a stable internet connection at the farm location. This could be a limitation in areas with limited or unreliable internet access</p>
+	<p>•IP Address-Based Control Limitations: The design is IP address-based and an IP address-based control system offers localized security within the farm's network. However, this might restrict remote access and control functionalities from outside the network. For instance, the famer wouldn't be able to monitor or control the system from a smartphone app if you were away from the farm.</p>
+	<p>•SG-90 Servo Motor Jitter: The servo motor used for the design is an SG motor and it is prone to jitter. The SG-90 servo motor, while readily available, is known for exhibiting slight jittering movements. This could lead to inconsistencies or inaccuracies in the dispensing mechanism, particularly for salt licks</p>
+	<p>Challenges overcome:</p>
+	<p>During the design phase, a significant challenge involved merging individual component codes into a single, cohesive program. This required careful code integration and testing to ensure proper communication and functionality between all system elements.</p>
+	<p>Another hurdle encountered was the inability of the Raspberry Pi to handle the power demands of the pump directly. This issue was effectively addressed by introducing a separate 5V DC power supply and a relay. The relay acts as a switch, allowing the low-power Raspberry Pi signal to control the high-power pump without overloading the system.</p>
+	<p>Project Significance:</p>
+	<p>The Water Monitoring System for Farms offers a valuable solution for modern farm management. It promotes animal welfare by ensuring consistent hydration and potentially providing essential salt licks. Additionally, the system optimizes resource utilization through automated refilling and empowers farm managers with remote monitoring and control capabilities, ultimately contributing to improved farm productivity and sustainability.</p>
+	<p>Future Enhancements:</p>
+	<p>This project lays a strong foundation for further development. Future iterations could explore:</p>
+	<p>•Exploring the integration of a cellular communication module (e.g., cellular modem) into the system.  This would allow for remote access and control functionalities regardless of the farm's internet availability, as long as cellular reception is present.</p>
+	<p>•For improved dispensing accuracy, considering using a higher-precision servo motor with reduced jitter.  While these might be slightly more expensive, the increased accuracy could be crucial for salt lick dispensing applications.</p>
+	<p>•Integration of additional sensors to monitor factors like water quality, temperature, or animal activity. This comprehensive data can provide valuable insights into farm management.</p>
+	<p>•Implementing data analytics to identify trends and patterns in water usage and animal behavior, helping farmers to make informed decisions.</p>
+	<p>•Developing machine learning algorithms to optimize automated refilling schedules and resource allocation</p>
+	<p>•Integrating the system with a reputable IoT platform like Amazon Web Services (AWS) IoT core, Microsoft Azure IoT Hub or Google Cloud IoT Core. This will enable remote access and control of the water monitoring system from anywhere with an internet connection, offering greater flexibility and convenience to farm managers.</p>
+	<p>By building upon this project's success and incorporating these potential advancements, the Water Monitoring System for Farms has the potential to revolutionize farm management practices, fostering a more efficient, sustainable, and animal-centric agricultural industry.</p>
+    </main>
+</body>
+</html>
